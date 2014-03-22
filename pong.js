@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     console.log("game running");
     var backGround = new Canvas(50, 50, 400, 700, '#000000');
@@ -227,14 +226,14 @@ $(document).ready(function() {
         this.ifScoreMaxed = function() {
             if(this.leftScore >= this.scoreToWin) {
                 if(this.scoreMeterLeftWidth >= 275) {
-                        confirm("Game over right player wins! Would you like to play again?");
+                        confirm("Game over left player wins! Would you like to play again?");
                         this.leftScore = 0;
                         this.rightScore = 0;
                 }
             }
             if(this.rightScore >= this.scoreToWin) {
                 if(this.scoreMeterRightWidth >= 272) {
-                    confirm("Game over left player wins! Would you like to play again?");
+                    confirm("Game over right player wins! Would you like to play again?");
                     this.leftScore = 0;
                     this.rightScore = 0;
                 }
