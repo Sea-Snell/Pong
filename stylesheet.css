@@ -1,0 +1,87 @@
+.paddle {
+    position: absolute;
+}
+
+.ball {
+    position: absolute;
+    left: 350;
+    top: 200;
+}
+
+.midLine {
+    position: absolute;
+}
+.scoreBoard{
+    position: relative;
+}
+.rightScore{
+    position: absolute;
+    left: 650px;
+    top: 10px;
+    font-size: 50px;
+}
+.leftScore{
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    font-size: 50px;
+}
+.scoreBar{
+    position: absolute;
+    left: 75px;
+    top: 25px;
+    width: 550px;
+    height: 20px;
+    background-color: #666666;
+}
+.midBar{
+    position: absolute;
+    height: 20px;
+    width: 3px;
+    background-color: #aaaaaa;
+    left: 50%;
+}
+.rightScoreMeter{
+    position: absolute;
+    left: 278px;
+    height: 20px;
+    width: 0;
+    background-color: #ff0000;
+}
+.leftScoreMeter{
+    position: absolute;
+    height: 20px;
+    width: 0;
+    background-color: #0000ff;
+}
+input{
+    position: absolute;
+    top: 20px;
+}
+.scoreToWin{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.scoreVariable{
+    position: absolute;
+}
+.resetScore{
+    position: absolute;
+    top: 75px;
+    width: 80px;
+    height: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.scoreVarCanvas{
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: 700px;
+    top: -500px;
+    background-color: #aaaaaa;
+}
+*{
+    overflow-x:hidden;
+}
